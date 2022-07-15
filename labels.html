@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="image-container">
+    <img src="{{label_tools.qr_code(so)}}" />
+  </div>
+  <div class="label-container">
+    <div class="address">
+      <div>{{ name }}</div>
+      <div>{{ addr }}</div>
+      <div>{{ city }}, {{ state }} {{ zip_code }}</div>
+    </div>
+    <div class="order-details">
+      <div id="po">PO: {{ po }}</div>
+      <div id="so">SO: {{ so }}</div>
+    </div>
+    <div class="count">Box {{ box }}</div>
+  </div>
+</div>

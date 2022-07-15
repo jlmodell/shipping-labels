@@ -1,0 +1,10 @@
+/bin
+/bin64
+/lib
+/Include
+/include
+/Scripts
+/**/__pycache__
+/**/*.cfg
+.DS_Store
+/share
