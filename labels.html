@@ -1,17 +1,20 @@
 <div class="container">
-  <div class="image-container">
-    <img src="{{label_tools.qr_code(so)}}" />
-  </div>
-  <div class="label-container">
-    <div class="address">
-      <div>{{ name }}</div>
-      <div>{{ addr }}</div>
-      <div>{{ city }}, {{ state }} {{ zip_code }}</div>
+    <div class="image-container">
+        <img src="{{label_tools.qr_code(so)}}" />
     </div>
-    <div class="order-details">
-      <div id="po">PO: {{ po }}</div>
-      <div id="so">SO: {{ so }}</div>
+    <div class="label-container">
+        <div class="address">
+            <div>> {{ name }}</div>
+            <div>| {{ addr }}</div>
+            <div>| {{ addr2 }}</div>
+            <div>> {{ city }}, {{ state }} {{ zip_code }}</div>
+        </div>
+        <div class="order-details">
+            <div id="po">
+                <span>PO</span>: {{ po }}</div>
+            <div id="so">
+                <span>SO</span>: {{ so }}</div>
+        </div>
+        <div class="count">Box {{ box }}</div>
     </div>
-    <div class="count">Box {{ box }}</div>
-  </div>
 </div>
